@@ -1,10 +1,348 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intelligent Systems and Collaborative Robotics Research Laboratory</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    color:#333;
+    background:#f5f7fa;
+}
+
+header{
+    background:linear-gradient(135deg,#00274C,#0056A6);
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.2rem;
+    max-width:900px;
+    margin:auto;
+}
+
+nav{
+    background:#001F3F;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:50px 0;
+}
+
+section{
+    margin-bottom:70px;
+}
+
+h2{
+    color:#00274C;
+    margin-bottom:20px;
+    border-left:5px solid #0056A6;
+    padding-left:10px;
+}
+
+.card-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#0056A6;
+    margin-bottom:10px;
+}
+
+.publication{
+    background:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-left:4px solid #0056A6;
+}
+
+.team-member{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+footer{
+    background:#00274C;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#0056A6;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#003E7A;
+}
+</style>
 </head>
+
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This site is hosted on GitHub Pages.</p>
+
+<header>
+    <h1>Intelligent Systems & Collaborative Robotics Research Laboratory</h1>
+    <p>
+        Advancing Human-Robot Interaction, Multi-Robot Collaboration,
+        Artificial Intelligence, and Intelligent Autonomous Systems
+        for real-world applications.
+    </p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#team">Team</a>
+    <a href="#join">Join Us</a>
+</nav>
+
+<div class="container">
+
+<section id="about">
+    <h2>About the Lab</h2>
+    <p>
+        The Intelligent Systems and Collaborative Robotics Research Laboratory
+        (ISCR Lab) at Purdue University Northwest explores the design,
+        development, and evaluation of intelligent robotic systems that work
+        alongside humans in complex environments. Our research combines
+        artificial intelligence, machine learning, robotics, and cognitive
+        science to create collaborative systems that enhance human capabilities.
+    </p>
+
+    <br>
+
+    <p>
+        The lab is directed by <strong>Dr. Sayanti Roy</strong>,
+        Assistant Professor of Computer Science and Director of the
+        Intelligent Systems and Collaborative Robotics Research Laboratory.
+    </p>
+</section>
+
+<section id="research">
+    <h2>Research Areas</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+            <h3>Human-Robot Interaction</h3>
+            <p>
+                Understanding how robots communicate, collaborate,
+                and build trust with human teammates.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Multi-Robot Systems</h3>
+            <p>
+                Coordination, workload management, task allocation,
+                and distributed decision making among robotic teams.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Artificial Intelligence</h3>
+            <p>
+                Machine learning, intelligent agents,
+                and adaptive autonomy for collaborative robots.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Space Robotics</h3>
+            <p>
+                Human-robot teaming and autonomous systems
+                for future lunar and space exploration missions.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Robot Communication</h3>
+            <p>
+                Natural language interaction, explainable autonomy,
+                and maintaining human situation awareness.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Computer Vision</h3>
+            <p>
+                Vision-based perception and quality assessment
+                for industrial and robotic applications.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Current Research Projects</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+            <h3>Performative Autonomy</h3>
+            <p>
+                Investigating how robots communicate task priorities
+                and maintain human situation awareness during demanding
+                collaborative activities.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Multi-Agent Task Coordination</h3>
+            <p>
+                Evaluating interruption prediction and coordination
+                strategies in intelligent multi-agent systems.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Lunar Surface Collaboration</h3>
+            <p>
+                Studying the impact of multi-robot team sizes and task
+                criticality levels for future lunar missions.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Industrial AI & Vision</h3>
+            <p>
+                Applying computer vision and AI techniques to quality
+                control and manufacturing processes.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="publications">
+    <h2>Selected Publications</h2>
+
+    <div class="publication">
+        <strong>I Have Other Tasks to Do...</strong><br>
+        Analyzing Human Perception of Robots Practicing Ruthless Prioritization,
+        IEEE RO-MAN 2024.
+    </div>
+
+    <div class="publication">
+        <strong>Does Performative Autonomy Improve Situation Awareness?</strong><br>
+        ACM/IEEE International Conference on Human-Robot Interaction, 2024.
+    </div>
+
+    <div class="publication">
+        <strong>Discovering Undiscovered States in Human-Robot Verbal Interaction</strong><br>
+        ACM/IEEE Human-Robot Interaction, 2024.
+    </div>
+
+    <div class="publication">
+        <strong>I Need Your Help... or Do I?</strong><br>
+        Maintaining Situation Awareness Through Performative Autonomy,
+        ACM/IEEE HRI 2023.
+    </div>
+
+    <div class="publication">
+        <strong>Deconstructed Trustee Theory</strong><br>
+        Disentangling Trust in Body and Identity in Multi-Robot Distributed Systems,
+        ACM/IEEE HRI 2021.
+    </div>
+
+</section>
+
+<section id="team">
+    <h2>Our Team</h2>
+
+    <div class="card-grid">
+
+        <div class="team-member">
+            <h3>Dr. Sayanti Roy</h3>
+            <p>Director</p>
+            <p>Human-Robot Interaction & Intelligent Systems</p>
+        </div>
+
+        <div class="team-member">
+            <h3>Graduate Researchers</h3>
+            <p>MS and PhD students conducting research in AI and Robotics.</p>
+        </div>
+
+        <div class="team-member">
+            <h3>Undergraduate Researchers</h3>
+            <p>Senior Design and Undergraduate Research Assistants.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="join">
+    <h2>Join the Lab</h2>
+
+    <p>
+        We welcome motivated undergraduate and graduate students
+        interested in Human-Robot Interaction, Artificial Intelligence,
+        Machine Learning, Robotics, Multi-Agent Systems, and Computer Vision.
+    </p>
+
+    <a href="mailto:roy203@purdue.edu" class="btn">Contact Us</a>
+</section>
+
+</div>
+
+<footer>
+    <p>
+        Intelligent Systems & Collaborative Robotics Research Laboratory (ISCR Lab)<br>
+        Purdue University Northwest<br>
+        Hammond, Indiana, USA
+    </p>
+</footer>
+
 </body>
 </html>
